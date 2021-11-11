@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
+
 
 
 export default function Footer() {
@@ -13,11 +13,3 @@ export default function Footer() {
   );
 }
 
-{/* <Grid container className="grid-container" rowGap="20rem" spacing={10} >
-      <Grid item className="grid-item" style={{ fontFamily: "helvetica", fontSize: "20px"}}>
-        Save Your MEME
-      </Grid>
-      <Grid item  className="grid-item" style={{ fontFamily: "helvetica", fontSize: "20px"}}>
-        All Memes Reserved
-        </Grid>
-    </Grid> */}

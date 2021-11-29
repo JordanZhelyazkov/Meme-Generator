@@ -16,7 +16,7 @@ export default function MemeGenerator() {
         const { memes } = res.data;
         setImagesArr(memes);
       });
-  }, [imagesArr]);
+  });
 
   function handleChange(event){
     const {name,value} = event.target;
